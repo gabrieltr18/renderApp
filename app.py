@@ -4,10 +4,10 @@ import plotly.express as px
 
 car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 
-#st.header('Prueba')
+st.header('Prueba GABRIEL')
 hist_button = st.button('Construir histograma') # crear un botón
 scatter_button = st.button('Construir gráfico de dispersión')  # nuevo botón para grafico de dispersión
-build_histogram = st.checkbox('Construir un histograma')
+build_histogram = st.checkbox('Construir un histograma (ESTO ES DE MENTIRA)')
         
 if hist_button: # al hacer clic en el botón
     # escribir un mensaje
